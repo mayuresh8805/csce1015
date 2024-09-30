@@ -25,7 +25,8 @@ if is_credit_card_valid(card_number):           # we are calling the function ab
 else:
 
     print("The credit card number is invalid.")
-    def run_tests():
+    
+def run_tests():
 
     assert is_credit_card_valid("4111111111111111"), '4111111111111111 should pass but did not'
 
